@@ -1,3 +1,19 @@
 #index:
 #    path: /
 #    controller: App\Controller\DefaultController::index
+home:
+    path: /
+    controller: App\Controller\HomeController::index
+cv:
+    path: /cv
+    controller: App\Controller\CvController::index
+etude:
+    path: /etude
+    controller: App\Controller\EtudeController::index
+
+stage:
+    path: /stage
+    controller: App\Controller\StageController::index
+contact:
+    path: /contact
+    controller: App\Controller\ContactController::index
